@@ -62,9 +62,7 @@ Created the following mailboxes:
 | User1 | `user1@ravikumar.local` |
 | User2 | `user2@ravikumar.local` |
 
-User1	user1@ravikumar.local
 
-User2	user2@ravikumar.local
 
 ![IPCONFIG](screenshots/02-Mailboxes-Created.png)
 
@@ -93,7 +91,7 @@ User2	user2@ravikumar.local
 
 - User1 Account
 
-Email Address: user1@ravikumar.local
+Email Address: user1@ravikumar.local  `user1@ravikumar.local`
 
 Incoming Server: 192.168.2.194
 
