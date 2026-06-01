@@ -123,7 +123,7 @@ Created the following mailboxes:
 
 ## Testing Performed
 
-Test 1 – User1 to User2
+## Test 1 – User1 to User2
 
 User1 sent an email:
 
@@ -141,7 +141,7 @@ Email delivered to User2 Inbox.
 
 ![IPCONFIG](screenshots/04-User2-Received-Email.png)
 
-Test 2 – User2 Reply to User1
+## Test 2 – User2 Reply to User1
 
 User2 replied to the email.
 
