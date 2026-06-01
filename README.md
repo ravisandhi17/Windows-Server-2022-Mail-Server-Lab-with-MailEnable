@@ -8,15 +8,15 @@ The objective of this project was to gain hands-on experience with email server 
 
 ## Lab Environment
 
-Hardware - Dell PowerEdge R720 Server
+- Hardware - Dell PowerEdge R720 Server
 
-Server Platform - Windows Server 2022 Standard
+- Server Platform - Windows Server 2022 Standard
 
-MailEnable - Standard Edition
+- MailEnable - Standard Edition
 
-Client Platform - Windows 11 Virtual Machine
+- Client Platform - Windows 11 Virtual Machine
 
-Mozilla Thunderbird - Email Client
+- Mozilla Thunderbird - Email Client
 
 ## Lab Architecture
 
@@ -31,27 +31,25 @@ Mozilla Thunderbird - Email Client
 
 ## Project Objectives
 
-Deploy a Windows-based mail server.
+- Deploy a Windows-based mail server.
 
-Configure SMTP and IMAP services.
+- Configure SMTP and IMAP services.
 
-Create and manage user mailboxes.
+- Create and manage user mailboxes.
 
-Configure email clients.
+- Configure email clients.
 
-Test email delivery between users.
+- Test email delivery between users.
 
-Troubleshoot mail routing and connectivity issues.
+- Troubleshoot mail routing and connectivity issues.
 
-Configuration Tasks Performed
+- Configuration Tasks Performed
 
-MailEnable Installation
+- Installation MailEnable Standard Edition on Windows Server 2022.
 
-Installed MailEnable Standard Edition on Windows Server 2022.
+- Configure a Post Office named: - ravikumar
 
-Configured a Post Office named: - ravikumar
-
-Configured the mail domain: - ravikumar.local
+- Configure the mail domain: - ravikumar.local
 
 ## Mailbox Configuration
 
@@ -67,15 +65,15 @@ User2	user2@ravikumar.local
 
 ## Email Services Configured
 
-SMTP Connector
+- SMTP Connector
 
-IMAP Service
+- IMAP Service
 
-Mail Transfer Agent (MTA)
+- Mail Transfer Agent (MTA)
 
-Post Office Connector
+- Post Office Connector
 
-MailEnable Core Services
+- POP Service
 
 ![IPCONFIG](screenshots/01-MailEnable-Services-Running.png)
 
@@ -88,7 +86,7 @@ MailEnable Core Services
 
 ## Thunderbird Configuration
 
-User1 Account
+- User1 Account
 
 Email Address: user1@ravikumar.local
 
@@ -104,7 +102,7 @@ Protocol: SMTP
 
 Port: 25
 
-User2 Account
+- User2 Account
 
 Email Address: user2@ravikumar.local
 
@@ -130,7 +128,7 @@ To: user2@ravikumar.local
 
 Subject: First Mail Test
 
-Result:
+## Result:
 
 SUCCESS
 
@@ -144,7 +142,7 @@ Test 2 – User2 Reply to User1
 
 User2 replied to the email.
 
-Result:
+## Result:
 
 SUCCESS
 
@@ -159,58 +157,43 @@ Reply successfully received in User1 Inbox.
 
 Verified the following:
 
-MailEnable services running
+- MailEnable services running
 
-SMTP port 25 listening
+- SMTP port 25 listening
 
-IMAP port 143 accessible
+- IMAP port 143 accessible
 
-Mailbox creation successful
+- Mailbox creation successful
 
-Email delivery successful
+- Email delivery successful
 
+- Email reply successful
 
-Email reply successful
-
-End-to-end communication verified
+- End-to-end communication verified
 
 ## Skills Demonstrated
 
-Windows Server 2022 Administration
+- Windows Server 2022 Administration
 
-MailEnable Administration
+- MailEnable Administration
 
-SMTP Configuration
+- SMTP Configuration
 
-IMAP Configuration
+- IMAP Configuration
 
-Email Server Management
+- Email Server Management
 
-Mailbox Administration
+- Mailbox Administration
+
+- Network Troubleshooting
+
+- Thunderbird Configuration
+
+- Infrastructure Support
+
+- System Administration
 
 
-Network Troubleshooting
-
-Thunderbird Configuration
-
-Infrastructure Support
-
-System Administration
-
-## Screenshots
-
-Installation
-
-MailEnable Installation
-
-MailEnable Services Running
-
-Configuration
-
-MailEnable Management Console
-
-Mailbox Creation (User1)
-Mailbox Creation (User2)
 
 ## Testing
 
