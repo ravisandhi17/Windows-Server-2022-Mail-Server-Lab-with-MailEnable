@@ -91,7 +91,7 @@ Created the following mailboxes:
 
 - User1 Account
 
-Email Address: user1@ravikumar.local  `user1@ravikumar.local`
+Email Address: `user1@ravikumar.local`
 
 Incoming Server: 192.168.2.194
 
@@ -107,7 +107,7 @@ Port: 25
 
 - User2 Account
 
-Email Address: user2@ravikumar.local
+Email Address: `user2@ravikumar.local` 
 
 Incoming Server: 192.168.2.194
 
@@ -127,7 +127,7 @@ Test 1 – User1 to User2
 
 User1 sent an email:
 
-To: user2@ravikumar.local
+To:  `user2@ravikumar.local` 
 
 Subject: First Mail Test
 
