@@ -79,6 +79,9 @@ MailEnable Core Services
 
 ![IPCONFIG](screenshots/01-MailEnable-Services-Running.png)
 
+![IPCONFIG](screenshots/08-SMTP-Port25-Listening.png)
+
+
 ![IPCONFIG](screenshots/07-PostOffice-Domain.png)
 
 
