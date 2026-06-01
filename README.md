@@ -57,6 +57,11 @@ Created the following mailboxes:
 
 ## Mailbox	Email Address
 
+| User | Mailbox Email Address |
+|------|-----------------------|
+| User1 | `user1@ravikumar.local` |
+| User2 | `user2@ravikumar.local` |
+
 User1	user1@ravikumar.local
 
 User2	user2@ravikumar.local
