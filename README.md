@@ -20,28 +20,12 @@ Mozilla Thunderbird - Email Client
 
 ## Lab Architecture
 
+![IPCONFIG](screenshots/architecture.png)
 
 
 
-Dell PowerEdge R720
-│
-└── Windows Server 2022 (DC1)
-    ├── Active Directory
-    ├── DNS Server
-    ├── Hyper-V
-    └── MailEnable Standard
-         ├── SMTP Service
-         ├── IMAP Service
-         ├── Mail Transfer Agent
-         └── Mailboxes
-              ├── user1@ravikumar.local
-              └── user2@ravikumar.local
 
-Windows 11 VM
-│
-└── Mozilla Thunderbird
-     ├── user1@ravikumar.local
-     └── user2@ravikumar.local
+
 
 
 
@@ -79,6 +63,8 @@ User1	user1@ravikumar.local
 
 User2	user2@ravikumar.local
 
+![IPCONFIG](screenshots/02-Mailboxes-Created.png)
+
 ## Email Services Configured
 
 SMTP Connector
@@ -91,7 +77,13 @@ Post Office Connector
 
 MailEnable Core Services
 
-Thunderbird Configuration
+![IPCONFIG](screenshots/01-MailEnable-Services-Running.png)
+
+![IPCONFIG](screenshots/07-PostOffice-Domain.png)
+
+
+
+## Thunderbird Configuration
 
 User1 Account
 
@@ -125,7 +117,7 @@ Protocol: SMTP
 
 Port: 25
 
-Testing Performed
+## Testing Performed
 
 Test 1 – User1 to User2
 
@@ -141,6 +133,10 @@ SUCCESS
 
 Email delivered to User2 Inbox.
 
+![IPCONFIG](screenshots/03-User1-Sent-Email.png)
+
+![IPCONFIG](screenshots/04-User2-Received-Email.png)
+
 Test 2 – User2 Reply to User1
 
 User2 replied to the email.
@@ -151,7 +147,12 @@ SUCCESS
 
 Reply successfully received in User1 Inbox.
 
-Verification
+![IPCONFIG](screenshots/05-User2-Reply-Email.png)
+
+![IPCONFIG](screenshots/06-User1-Received-Reply.png)
+
+
+## Verification
 
 Verified the following:
 
@@ -170,7 +171,7 @@ Email reply successful
 
 End-to-end communication verified
 
-Skills Demonstrated
+## Skills Demonstrated
 
 Windows Server 2022 Administration
 
