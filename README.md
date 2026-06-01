@@ -89,37 +89,37 @@ Created the following mailboxes:
 
 ## Thunderbird Configuration
 
-- User1 Account
+## User1 Account
 
-Email Address: `user1@ravikumar.local`
+- Email Address: `user1@ravikumar.local`
 
-Incoming Server: 192.168.2.194
+- Incoming Server: 192.168.2.194
 
-Protocol: IMAP
+- Protocol: IMAP
 
-Port: 143
+- Port: 143
 
-Outgoing Server: 192.168.2.194
+- Outgoing Server: 192.168.2.194
 
-Protocol: SMTP
+- Protocol: SMTP
 
-Port: 25
+- Port: 25
 
-- User2 Account
+## User2 Account
 
-Email Address: `user2@ravikumar.local` 
+- Email Address: `user2@ravikumar.local` 
 
-Incoming Server: 192.168.2.194
+- Incoming Server: 192.168.2.194
 
-Protocol: IMAP
+- Protocol: IMAP
 
-Port: 143
+- Port: 143
 
-Outgoing Server: 192.168.2.194
+- Outgoing Server: 192.168.2.194
 
-Protocol: SMTP
+- Protocol: SMTP
 
-Port: 25
+- Port: 25
 
 ## Testing Performed
 
@@ -211,3 +211,7 @@ User1 Receiving Reply
 ## Project Outcome
 
 Successfully deployed and configured a fully functional enterprise-style mail server using MailEnable on Windows Server 2022. Created multiple mailboxes, configured SMTP and IMAP services, and validated end-to-end email communication between users using Mozilla Thunderbird.
+
+## Author
+
+## RAVI KUMAR
